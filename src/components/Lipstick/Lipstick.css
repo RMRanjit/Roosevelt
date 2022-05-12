@@ -1,0 +1,18 @@
+#CoverCanvas {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 480px;
+    width: 640px;
+    /* removing the height and width from here, causes the webcam to shift under the left navigation */
+}
